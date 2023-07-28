@@ -1,15 +1,15 @@
 {
-    "name": "abbotton/dcat-sku-plus",
-    "description": "基于Dcat Admin的SKU扩展增强版",
-    "alias": "Dcat Admin SKU扩展增强版",
+    "name": "azrabash/dcat-sku-plus",
+    "description": "SKU Extension Plus based on Dcat Admin",
+    "alias": "Dcat Admin SKU",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/abbotton/dcat-sku-plus",
+    "homepage": "https://github.com/azrabash/dcat-sku-plus",
     "license": "MIT",
     "authors": [
         {
-            "name": "Abbotton",
-            "email": "uctoo@foxmail.com"
+            "name": "Azrabash",
+            "email": "azrabash@gmail.com"
         }
     ],
     "require": {
