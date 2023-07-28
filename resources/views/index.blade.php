@@ -14,16 +14,16 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th style="width: 200px">规格名</th>
-                        <th>规格值</th>
-                        <th style="width: 100px">操作</th>
+                        <th style="width: 200px">Specification name</th>
+                        <th>Specification Value</th>
+                        <th style="width: 100px">Operate</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td>
                             <select class="form-control _normal_ attribute_selector">
-                                <option value="input">手动输入</option>
+                                <option value="input">manual input</option>
                                 @foreach($skuAttributes as $key => &$attribute)
                                     <option value="{{$attribute->attr_type}}" data-idx="{{$key}}">{{$attribute->attr_name}}</option>
                                 @endforeach
@@ -44,7 +44,7 @@
                             </div>
                         </td>
                         <td>
-                            <span class="btn btn-primary Js_add_attr_name">添加</span>
+                            <span class="btn btn-primary Js_add_attr_name">Add to</span>
                         </td>
                     </tr>
                     </tbody>
