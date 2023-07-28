@@ -35,13 +35,13 @@ class UploadController extends AdminController
         $disk = config('admin.upload.disk');
         $path = request()->input('path');
         if (!Storage::disk($disk)->exists($path)) {
-            return response()->json(['code' => 404, 'message' => '未找到相关图片']);
+            return response()->json(['code' => 404, 'message' => 'No related pictures found']);
         }
 
         try {
             Storage::disk($disk)->delete($path);
 
-            return response()->json(['code' => 200, 'message' => '删除成功']);
+            return response()->json(['code' => 200, 'message' => 'successfully deleted']);
         } catch (\Exception $exception) {
             return response()->json(['code' => $exception->getCode(), 'message' => $exception->getMessage()]);
         }
