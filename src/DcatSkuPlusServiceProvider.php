@@ -17,7 +17,7 @@ class DcatSkuPlusServiceProvider extends ServiceProvider
 
     protected $menu = [
         [
-            'title' => '属性管理',
+            'title' => 'Attribute Management',
             'uri' => 'sku-attribute'
         ]
     ];
